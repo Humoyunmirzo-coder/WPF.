@@ -10,14 +10,24 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label Grid.Row="0" Grid.ColumnSpan="2" Content="Registration" FontSize="16" FontWeight="Bold" Margin="10"/>
         <Label Grid.Row="1" Content="Login:" Margin="10"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="10" x:Name="LoginTextBox"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="10" x:Name="LoginTextBox"/>  
+        
+        <Label Grid.Row="1" Content="Login:" Margin="10"/>
+        <TextBox Grid.Row="1" Grid.Column="2" Margin="10" x:Name="logpinTextBox"/>
+        <TextBox Grid.Row="2" Grid.Column="2" Margin="10" x:Name="lpinTextBox"/>
+        <TextBox Grid.Row="1" Grid.Column="2" Margin="10" x:Name="loTextBox"/>
+        
         <Label Grid.Row="2" Content="Password:" Margin="10"/>
         <PasswordBox Grid.Row="2" Grid.Column="1" Margin="10" x:Name="PasswordBox"/>
         <Label Grid.Row="3" Content="Repeat password:" Margin="10"/>
