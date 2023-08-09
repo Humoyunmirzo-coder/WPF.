@@ -26,6 +26,7 @@
         <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Content="_Cancel" Margin="10,0,0,10" Click="CancelButton_Click"/>
             <Button Content="_Register" Margin="10,0,0,10" Click="RegisterButton_Click"/>
+            <Grid></Grid>
         </StackPanel>
     </Grid>
 </Window>
