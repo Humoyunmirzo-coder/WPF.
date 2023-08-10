@@ -4,8 +4,8 @@ namespace WpfApp1
 {
     internal class Properties
     {
-        public static object Settings { get; internal set; }
-        public static string Default { get; internal set;}
+        public static object? Settings { get; internal set; }
+        public static string? Default { get; internal set;}
   
     }
 }
