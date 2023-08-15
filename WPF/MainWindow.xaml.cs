@@ -57,6 +57,8 @@ namespace WpfApp1
                 MessageBox.Show("ww", "hello y all" , MessageBoxButton.YesNo , MessageBoxImage.Question);
                 MessageBox.Show("ww", "hellp you " , MessageBoxButton.YesNo , MessageBoxImage.Question);
                 MessageBox.Show("ww", "hellp you " , MessageBoxButton.YesNo , MessageBoxImage.Question);
+                MessageBox.Show("ww", "hellp you " , MessageBoxButton.YesNo , MessageBoxImage.Question);
+                MessageBox.Show("ww", "hellp you " , MessageBoxButton.YesNo , MessageBoxImage.Question);
                
                 // Store hashed password in database
                 //Record login and password in application settings property
