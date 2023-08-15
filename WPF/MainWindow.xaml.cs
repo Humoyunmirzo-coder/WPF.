@@ -53,7 +53,7 @@ namespace WpfApp1
             else
             {
                 MessageBox.Show("ww", "hellp");
-                MessageBox.Show("ww", "hellp" , MessageBoxButton.YesNo , MessageBoxImage.Question);
+     
                
                 // Store hashed password in database
                 //Record login and password in application settings property
