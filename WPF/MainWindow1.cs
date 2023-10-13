@@ -12,7 +12,10 @@ namespace WpfApp1
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (sender.Equals(e))
+            {
+                Console.WriteLine("Successfuly");
+            }
         }
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
