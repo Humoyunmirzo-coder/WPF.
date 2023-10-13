@@ -3,11 +3,11 @@ using System.Windows;
 
 namespace WpfApp1
 {
-    internal partial class MainWindow
+    public  partial class MainWindow 
     {
         internal void Show()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(" hello");
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
